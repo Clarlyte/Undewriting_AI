@@ -33,7 +33,7 @@ def extract_entities_from_file(file_path):
     return entities
 
 # Example usage:
-file_path = "C:\\Users\\biboy\\Desktop\\Underwrting Ai\\Underwriting_project\\extracted_text\\test2.txt"
+file_path = "C:\\Users\\biboy\\Desktop\\Underwrting Ai\\Underwriting_project\\extracttext\\extracted_text\\test2.txt"
 entities = extract_entities_from_file(file_path)
 
 # Print extracted entities and their labels

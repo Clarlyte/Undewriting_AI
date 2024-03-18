@@ -2,10 +2,10 @@ import os
 from text_extraction import extract_text
 
 # Directory containing the images
-image_dir = "C:\\Users\\biboy\\Desktop\\Underwrting Ai\\Underwriting_project\\images"
+image_dir = "C:\\Users\\biboy\\Desktop\\Underwrting Ai\\Underwriting_project\\extracttext\\images"
 
 # Specify the directory to save the README files
-output_directory = "C:\\Users\\biboy\\Desktop\\Underwrting Ai\\Underwriting_project\\extracted_text\\"
+output_directory = "C:\\Users\\biboy\\Desktop\\Underwrting Ai\\Underwriting_project\\extracttext\\extracted_text\\"
 
 # Iterate over all files in the image directory
 for filename in os.listdir(image_dir):

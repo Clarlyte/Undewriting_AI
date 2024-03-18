@@ -41,7 +41,7 @@ def preprocess_image(image_path):
 
 '''
 # Test Processed Image Quality
-image_path = "C:\\Users\\biboy\\Desktop\\Underwrting Ai\\Underwriting_project\\images\\test2.png"
+image_path = "C:\\Users\\biboy\\Desktop\\Underwrting Ai\\Underwriting_project\\extracttext\\images\\test2.png"
 cv2.imshow("Preprocessed Image", preprocess_image(image_path))
 cv2.waitKey(0)
 cv2.destroyAllWindows()
